@@ -1,10 +1,11 @@
 import React from "react";
+import './TodoItem.css'
 
-function TodoItem() {
+function TodoItem({title}) {
   return (
-    <li>
+    <li className="itemContainer">
       <span>V</span>
-      <p>Llorar con la Llorona</p>
+      <p>{title}</p>
       <span>x</span>
     </li>
   );

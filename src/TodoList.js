@@ -1,7 +1,8 @@
 import React from "react";
+import './TodoList.css';
 
-function TodoList(props) {
-  return <ul>{props.children}</ul>;
+function TodoList({children}) {
+  return <ul className="container">{children}</ul>;
 }
 
 export { TodoList };

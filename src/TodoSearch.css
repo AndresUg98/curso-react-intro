@@ -1,0 +1,13 @@
+.searchInput{
+    width: 80%;
+    height: 30px;
+    font-size: 1rem;
+    border-radius: 12px;
+    align-self: center;
+
+}
+
+.searchInput::placeholder{
+    text-align: center;
+
+}
