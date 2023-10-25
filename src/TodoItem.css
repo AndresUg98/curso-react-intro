@@ -1,8 +1,43 @@
-.itemContainer{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+.itemContainer {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #f8f9f9;
+  box-shadow: 2px 2px 5px #aaaaaa;
+
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.itemContainer p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Icon-check {
+  color: black;
+}
+
+.Icon-check--active {
+  color: green;
+}
+
+.TodoItem-p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.TodoItem-p--complete {
+  background-color: #52be80;
+}
+
+.Icon-delete {
+  color: red;
 }

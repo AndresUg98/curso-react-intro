@@ -1,13 +1,13 @@
-.searchInput{
-    width: 80%;
-    height: 30px;
-    font-size: 1rem;
-    border-radius: 12px;
-    align-self: center;
-
+.searchInput {
+  width: 80%;
+  height: 30px;
+  font-size: 1rem;
+  border-radius: 12px;
+  align-self: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
-.searchInput::placeholder{
-    text-align: center;
-
+.searchInput::placeholder {
+  text-align: center;
 }
