@@ -1,0 +1,20 @@
+button{
+    width: 48px;
+    height: 48px;
+    margin-top: 18px;
+    margin-bottom: 28px;
+
+    background-image: linear-gradient(to right top, #7fe3e7, #5cd4f8, #66bfff, #95a5fb, #c584dc);
+    box-shadow: 2px 2px 2px #aaaaaa;
+    border-radius: 10px;
+    border: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PlusIcon{
+    color: white;
+    font-size: 24px;
+}
