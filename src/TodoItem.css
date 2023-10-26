@@ -38,6 +38,6 @@
   background-color: #52be80;
 }
 
-.Icon-delete {
+.Icon-delete:hover {
   color: red;
 }
