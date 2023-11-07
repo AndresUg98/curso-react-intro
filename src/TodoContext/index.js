@@ -5,10 +5,11 @@ const TodoContext = React.createContext();
 
 function TodoProvider({ children }) {
   const [searchValue, setSearchValue] = useState("");
+  const [openModal, setOpenModal] = useState(false);
 
   const {
     item: todos,
-    saveItem: saveTodos,
+    saveItems: saveTodos,
     loading,
     error,
   } = useLocalStorage("TODOS_V1", []);
@@ -38,6 +39,16 @@ function TodoProvider({ children }) {
     saveTodos(newTodos);
   };
 
+  const isModalOpen = () => {
+    if (openModal === false) {
+      setOpenModal(true);
+      console.log("es true");
+    } else {
+      setOpenModal(false);
+      console.log("es false");
+    }
+  };
+
   return (
     <TodoContext.Provider
       value={{
@@ -50,6 +61,9 @@ function TodoProvider({ children }) {
         deleteTodo,
         loading,
         error,
+        openModal,
+        setOpenModal,
+        isModalOpen,
       }}
     >
       {children}
