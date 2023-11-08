@@ -1,5 +1,6 @@
 .itemContainer {
   width: 100%;
+
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -16,6 +17,11 @@
 }
 
 .itemContainer p {
+  width: 50%;
+  max-width: 80%;
+  text-align: center;
+  word-wrap: break-word;
+  box-sizing: border-box;
   margin-left: 10px;
   margin-right: 10px;
 }

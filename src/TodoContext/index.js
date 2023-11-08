@@ -39,14 +39,14 @@ function TodoProvider({ children }) {
     saveTodos(newTodos);
   };
 
-  const isModalOpen = () => {
-    if (openModal === false) {
-      setOpenModal(true);
-      console.log("es true");
-    } else {
-      setOpenModal(false);
-      console.log("es false");
-    }
+  const addTodo = (title) => {
+    const newTodos = [...todos];
+
+    newTodos.push({
+      title,
+      completed: false,
+    });
+    saveTodos(newTodos);
   };
 
   return (
@@ -63,7 +63,7 @@ function TodoProvider({ children }) {
         error,
         openModal,
         setOpenModal,
-        isModalOpen,
+        addTodo,
       }}
     >
       {children}

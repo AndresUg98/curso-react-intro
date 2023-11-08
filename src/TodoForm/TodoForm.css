@@ -1,34 +1,71 @@
-.TodoForm-contianer{
-    width: 80%;
-    height: 300px;
-    border-radius: 10px;
-    background-color: rgb(222, 226, 226);
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+.TodoForm-contianer {
+  width: 80%;
+  height: 300px;
+  border-radius: 10px;
+  background-color: rgb(222, 226, 226);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.TodoForm-contianer label{
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-    font-size: 1.2rem;
-    color: black;
+.TodoForm-contianer label {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: black;
 }
 
-.TodoForm-contianer textarea{
-    width: 80%;
-    height: 30%;
+.TodoForm-contianer textarea {
+  width: 80%;
+  height: 35%;
+  padding: 12px;
+  margin-top: 25px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
+.TodoForm-contianer textarea::placeholder {
+  padding-left: 48px;
+  padding-top: 35px;
+}
 
+.TodoForm-buttonContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
-.TodoForm-buttonContainer{
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.TodoForm-button {
+  width: 34%;
 
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.TodoForm-button--add {
+  background-image: linear-gradient(
+    to right top,
+    #7fe7a5,
+    #5cf8bc,
+    #85ff66,
+    #95fb9a,
+    #9cdc84
+  );
+}
+
+.TodoForm-button--cancel {
+  background-image: linear-gradient(
+    to right top,
+    #e77fc1,
+    #f85c5c,
+    #ff9166,
+    #fba395,
+    #dc8484
+  );
 }
