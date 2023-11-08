@@ -1,0 +1,34 @@
+.TodoForm-contianer{
+    width: 80%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(222, 226, 226);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.TodoForm-contianer label{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.TodoForm-contianer textarea{
+    width: 80%;
+    height: 30%;
+}
+
+
+
+.TodoForm-buttonContainer{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}

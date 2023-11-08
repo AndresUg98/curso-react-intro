@@ -9,6 +9,8 @@ import { EmptyTodos } from "../EmptyTodos";
 import { CreateTodoButton } from "../CreateTodoButton";
 import { TodoContext } from "../TodoContext";
 import { Modal } from "../Modal";
+import { TodoForm } from "../TodoForm";
+
 
 function AppUi() {
   const {
@@ -45,7 +47,7 @@ function AppUi() {
 
         <CreateTodoButton setOpenModal={setOpenModal} />
 
-        {openModal && <Modal>La funcionalidad de agregar todos</Modal>}
+        {openModal && <Modal><TodoForm/></Modal>}
       </div>
     </React.Fragment>
   );
