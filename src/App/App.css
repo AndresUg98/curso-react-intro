@@ -1,4 +1,4 @@
-.appCoontainer{
+.appCoontainer {
   width: 80%;
   height: auto;
   display: flex;
@@ -10,4 +10,10 @@
   overflow: hidden;
 
   padding: 0;
+}
+
+@media (min-width: 536px) {
+  .appCoontainer {
+    margin: 8% auto;
+  }
 }

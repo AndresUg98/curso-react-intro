@@ -47,3 +47,9 @@
 .Icon-delete:hover {
   color: red;
 }
+
+@media (min-width: 514px) {
+  .itemContainer {
+    max-width: 650px;
+  }
+}

@@ -25,12 +25,14 @@
   border-radius: 10px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
+  text-align: center;
+  line-height: 100px;
   font-size: 1rem;
 }
 
 .TodoForm-contianer textarea::placeholder {
-  padding-left: 48px;
-  padding-top: 35px;
+  text-align: center;
+  line-height: 100px;
 }
 
 .TodoForm-buttonContainer {
@@ -42,7 +44,6 @@
 
 .TodoForm-button {
   width: 34%;
-
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 0.8rem;
@@ -68,4 +69,10 @@
     #fba395,
     #dc8484
   );
+}
+
+@media (min-width: 514px) {
+  .TodoForm-contianer {
+    max-width: 500px;
+  }
 }

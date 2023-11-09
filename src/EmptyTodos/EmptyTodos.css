@@ -1,0 +1,23 @@
+.Empty-Container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.Empty-title {
+  font-size: 1.3rem;
+  margin-bottom: 12%;
+}
+
+.Empty-ImgContainer {
+  width: 100%;
+  background-color: black;
+  margin: 0;
+  object-fit: cover;
+  overflow: hidden;
+}
+.Empty-ImgContainer img {
+  width: 100%;
+}
