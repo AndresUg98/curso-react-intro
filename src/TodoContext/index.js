@@ -28,8 +28,13 @@ function TodoProvider({ children }) {
   const completeTodo = (title) => {
     const newTodos = [...todos];
     const todoIndex = newTodos.findIndex((todo) => todo.title === title);
-    newTodos[todoIndex].completed = true;
-    saveTodos(newTodos);
+    if (newTodos[todoIndex].completed === false) {
+      newTodos[todoIndex].completed = true;
+      saveTodos(newTodos);
+    } else {
+      newTodos[todoIndex].completed = false;
+      saveTodos(newTodos);
+    }
   };
 
   const deleteTodo = (title) => {
