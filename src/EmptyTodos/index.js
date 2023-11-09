@@ -6,7 +6,7 @@ function EmptyTodos() {
       <h2 className="Empty-title">¡Crea tu primer ToDo!</h2>
       <figure className="Empty-ImgContainer">
         <img
-          alt="a person working background image"
+          alt="a person working"
           src="https://d11cuk1a0j5b57.cloudfront.net/blog/wp-content/uploads/2020/04/Trabajar-desde-casa-portada.jpg"
         />
       </figure>
