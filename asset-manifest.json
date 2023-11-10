@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AndresUg98/curso-react-intro/static/css/main.2e7c17f4.css",
+    "main.js": "/AndresUg98/curso-react-intro/static/js/main.d14e8207.js",
+    "index.html": "/AndresUg98/curso-react-intro/index.html",
+    "main.2e7c17f4.css.map": "/AndresUg98/curso-react-intro/static/css/main.2e7c17f4.css.map",
+    "main.d14e8207.js.map": "/AndresUg98/curso-react-intro/static/js/main.d14e8207.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e7c17f4.css",
+    "static/js/main.d14e8207.js"
+  ]
+}
