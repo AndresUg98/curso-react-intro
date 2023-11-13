@@ -1,12 +1,14 @@
-# Repositorio base del Curso de Introducción a React.js en Platzi
+# Todo-WebApp
 
-¡Hola, Platzinauta!
+Hello, everyone!
 
-En este repositorio encontrarás el código de todas las clases del [Curso de Introducción a React.js](https://platzi.com/reactjs). Para empezar solo debes clonar este repositorio (`git clone`), instalar sus dependencias (`npm i`) y ejecutar la aplicación (`npm start`).
+Welcome to Todo-WebApp, an intuitive and easy-to-use web application for managing your daily tasks. Whether you're organizing your work, planning projects, or just making a shopping list, Todo-WebApp is here to simplify your life
 
-La rama principal contiene el código con el que eempezamos el curso. En las demás ramas encontrarás el código de las siguientes clases y finalmente el deploy de la aplicación.
+URL of the project: https://andresug98.github.io/curso-react-intro/
 
-¡Mucha suerte aprendiendo React! #NuncaParesDeAprender
+
+To get started, you just need to clone this repository (`git clone`), install its dependencies (`npm i`), and run the application (`npm start`).
+
 
 ## Getting Started with Create React App
 
